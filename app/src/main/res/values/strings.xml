@@ -8,12 +8,46 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
     <string name="menu_trivia">Trivia</string>
-    <string name="menu_feedback">Feedback</string>
+    <string name="menu_about">About</string>
     <string name="fab_description">Button</string>
     <string name="menu_alphabets">Alphabets</string>
     <string name="menu_number_converter">Number converter</string>
-    <string name="menu_DYN">Did you know..?</string>
+    <string name="trivia_scores">Trivia scores</string>
+    <string name="take_the_quiz">Take the quiz</string>
+    <string name="trivia">Trivia</string>
+    <string name="trivia_q1">1. Care este cel mai vechi sistem de scriere cunoscut?</string>
+    <string name="alfabetul_fenician">Alfabetul fenician</string>
+    <string name="scrierea_cuneiforma">Scrierea cuneiforma</string>
+    <string name="hieroglifa_egipteana">Hieroglifa egipteana</string>
+    <string name="alfabetul_grec">Alfabetul grec</string>
+    <string name="trivia_q2">2. Ce civilizatie a folosit hieroglifele ca sistem de scriere?</string>
+    <string name="egiptul_antic">Egiptul antic</string>
+    <string name="civilizatia_minoica">Civilizatia minoica</string>
+    <string name="mesopotamia">Mesopotamia</string>
+    <string name="imperiul_roman">Imperiul roman</string>
+    <string name="trivia_q3">3. In ce regiune a fost utilizat alfabetul runic?</string>
+    <string name="answer_here">Answer here:</string>
+    <string name="trivia_q4">4. Cine este creditat pentru inventarea alfabetului glagolitic?</string>
+    <string name="trivia_q5">5. Cine este creditat pentru inventarea alfabetului glagolitic?</string>
+    <string name="aristotel">Aristotel</string>
+    <string name="constantin">Constantin</string>
+    <string name="socrate">Socrate</string>
+    <string name="herodot">Herodot</string>
+    <string name="trivia_q6">6. Cate litere are alfabetul latin modern?</string>
+    <string name="trivia_q7">7. In ce an a fost descifrata scrierea cuneiforma?</string>
+    <string name="_1799">1799</string>
+    <string name="_1857">1857</string>
+    <string name="_1822">1822</string>
+    <string name="_1895">1895</string>
+    <string name="trivia_q8">8. Cate categorii principale de simboluri exista in scrierea cuneiforma?</string>
+    <string-array name="simboluri">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="trivia_q9">9. In ce regiune a fost folosit alfabetul oghamic?</string>
+    <string name="trivia_q10">10. Din ce sistem de scriere deriva alfabetul latin?</string>
+    <string name="bttn_send">Send</string>
 </resources>

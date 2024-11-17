@@ -9,10 +9,6 @@
             android:icon="@drawable/baseline_home_24"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/baseline_edit_24"
-            android:title="@string/menu_trivia"/>
-        <item
             android:id="@+id/nav_learn"
             android:icon="@drawable/baseline_feed_24"
             android:title="@string/menu_alphabets"/>
@@ -21,12 +17,8 @@
             android:icon="@drawable/baseline_calculate_24"
             android:title="@string/menu_number_converter"/>
         <item
-            android:id="@+id/nav_news"
-            android:icon="@drawable/baseline_question_mark_24"
-            android:title="@string/menu_DYN"/>
-        <item
-            android:id="@+id/nav_slideshow"
-            android:title="@string/menu_feedback"
-            android:icon="@drawable/baseline_sentiment_satisfied_alt_24"/>
+            android:id="@+id/nav_about"
+            android:title="@string/menu_about"
+            android:icon="@drawable/baseline_info_24"/>
     </group>
 </menu>
