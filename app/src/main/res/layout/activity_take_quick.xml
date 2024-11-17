@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TakeQuickActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/surugiu_george_alexandru_constraintLayout_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_tvTrivia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trivia"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="50dp"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_tv_q1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tvTrivia"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trivia_q1" />
+
+        <RadioGroup
+            android:id="@+id/surugiu_george_alexandru_radioGroup_q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q1"
+            android:layout_marginStart="8dp"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q1"
+            android:layout_marginEnd="16dp">
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_alfabetulFenician"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alfabetul_fenician"
+                android:textSize="11sp" />
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_scriereaCuneiforma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scrierea_cuneiforma"
+                android:textSize="11sp" />
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_hieroglifeEgiptene"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hieroglifa_egipteana"
+                android:textSize="11sp" />
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_alfabetulGrec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alfabetul_grec"
+                android:textSize="11sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_tv_q2"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q1"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_radioGroup_q1"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trivia_q2" />
+
+        <RadioGroup
+            android:id="@+id/surugiu_george_alexandru_radioGroup_q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q2"
+            android:layout_marginStart="8dp"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q2"
+            android:layout_marginEnd="16dp">
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_mesopotamia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mesopotamia"
+                android:textSize="11sp" />
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_egiptulAntic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/egiptul_antic"
+                android:textSize="11sp" />
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_civilizatiaMinoica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/civilizatia_minoica"
+                android:textSize="11sp" />
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_imperiulRoman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/imperiul_roman"
+                android:textSize="11sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_tv_q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trivia_q3"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q2"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_radioGroup_q2"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/surugiu_george_alexandru_editText_q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8sp"
+            android:ems="10"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:text="@string/answer_here"
+            android:textSize="11sp"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q3"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q3" />
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_tv_q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trivia_q4"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q3"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_editText_q3"
+            android:layout_marginTop="11dp"/>
+
+        <EditText
+            android:id="@+id/surugiu_george_alexandru_editText_q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8sp"
+            android:ems="10"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:text="@string/answer_here"
+            android:textSize="11sp"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q4"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q4" />
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_tv_q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trivia_q5"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q4"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_editText_q4"
+            android:layout_marginTop="11dp"/>
+
+        <RadioGroup
+            android:id="@+id/surugiu_george_alexandru_radioGroup_q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q5"
+            android:layout_marginStart="8dp"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q5"
+            android:layout_marginEnd="16dp" >
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_aristotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aristotel"
+                android:textSize="11sp" />
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_socrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/socrate"
+                android:textSize="11sp" />
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_constantin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/constantin"
+                android:textSize="11sp" />
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_herodot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/herodot"
+                android:textSize="11sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_tv_q6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trivia_q6"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q5"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_radioGroup_q5"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/surugiu_george_alexandru_editText_q6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8sp"
+            android:ems="10"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:text="@string/answer_here"
+            android:textSize="11sp"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q6"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q6" />
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_tv_q7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trivia_q7"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q6"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_editText_q6"
+            android:layout_marginTop="8dp" />
+
+        <RadioGroup
+            android:id="@+id/surugiu_george_alexandru_radioGroup_q7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q7"
+            android:layout_marginStart="8dp"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q7"
+            android:layout_marginEnd="16dp" >
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_1799"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1799"
+                android:textSize="11sp" />
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_1857"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1857"
+                android:textSize="11sp" />
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_1822"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1822"
+                android:textSize="11sp" />
+
+            <RadioButton
+                android:id="@+id/surugiu_george_alexandru_1895"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1895"
+                android:textSize="11sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_tv_q8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trivia_q8"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q7"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_radioGroup_q7"
+            android:layout_marginTop="8dp" />
+
+        <Spinner
+            android:id="@+id/surugiu_george_alexandru_spinnerQ8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:entries="@array/simboluri"
+            android:minHeight="48dp"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q8"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q8"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_tv_q9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trivia_q9"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q8"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_spinnerQ8"
+            android:layout_marginTop="4dp" />
+
+        <EditText
+            android:id="@+id/surugiu_george_alexandru_editText_q9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8sp"
+            android:ems="10"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:text="@string/answer_here"
+            android:textSize="11sp"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q9"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q9" />
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_tv_q10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trivia_q10"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q9"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_editText_q9"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/surugiu_george_alexandru_editText_q10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8sp"
+            android:ems="10"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:text="@string/answer_here"
+            android:textSize="11sp"
+            app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q10"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q10" />
+
+        <Button
+            android:id="@+id/surugiu_george_alexandru_bttnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bttn_send"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_editText_q10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="30dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
