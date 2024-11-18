@@ -1,14 +1,239 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.AlphabetsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/surugiu_george_alexandru_constraintLayout_alphabets"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content" >
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_alphabets_titlu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabets_titlu1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="100dp" />
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_alphabets_scriereCuneiforma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabets_scriereaCuneiforma"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_titlu1"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="4dp"/>
+
+        <ImageView
+            android:id="@+id/surugiu_george_alexandru_alphabets_pozaScriereCuneiforma"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:contentDescription="@string/tablita_scriere_cuneiforma"
+            android:src="@drawable/alfabet_cuneiform"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_scriereCuneiforma"/>
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_alphabets_titlu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabets_hieroglifeEgiptAntic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_pozaScriereCuneiforma"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="40dp" />
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_alphabets_hieroglifeEgiptAntic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabets_hieroglife"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_titlu2"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="4dp"/>
+
+        <ImageView
+            android:id="@+id/surugiu_george_alexandru_alphabets_pozaHieroglife"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:contentDescription="@string/tablita_hieroglife"
+            android:src="@drawable/hieroglife"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_hieroglifeEgiptAntic" />
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_alphabets_titlu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabets_alfabetulLatin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_pozaHieroglife"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="40dp" />
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_alphabets_alfabetLatin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabets_latin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_titlu3"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="4dp"/>
+
+        <ImageView
+            android:id="@+id/surugiu_george_alexandru_alphabets_pozaAlfabetLatin"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:contentDescription="@string/tablita_alfabet_latin"
+            android:src="@drawable/alfabet_latin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_alfabetLatin"/>
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_alphabets_titlu4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabets_alfabetulFenician"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_pozaAlfabetLatin"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="40dp" />
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_alphabets_alfabetFenician"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabets_fenician"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_titlu4"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="4dp"/>
+
+        <ImageView
+            android:id="@+id/surugiu_george_alexandru_alphabets_pozaAlfabetFenician"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:contentDescription="@string/tablita_alfabet_fenician"
+            android:src="@drawable/alfabet_fenician"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_alfabetFenician"/>
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_alphabets_titlu5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabets_alfabetulRunic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_pozaAlfabetFenician"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="40dp" />
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_alphabets_alfabetRunic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabets_runic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_titlu5"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="4dp"/>
+
+        <ImageView
+            android:id="@+id/surugiu_george_alexandru_alphabets_pozaAlfabetRunic"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/tablita_alfabet_runic"
+            android:src="@drawable/alfabetu_runic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_alfabetRunic"/>
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_alphabets_titlu6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabets_alfabetulGlagolitic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_pozaAlfabetRunic"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="40dp" />
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_alphabets_alfabetGlagolitic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabets_glagolitic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_titlu6"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="4dp" />
+
+        <ImageView
+            android:id="@+id/surugiu_george_alexandru_alphabets_pozaAlfabetGlagolitic"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:contentDescription="@string/tablita_alfabet_glagolitic"
+            android:src="@drawable/alfabet_glagolitic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_alfabetGlagolitic"/>
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_alphabets_titlu7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabets_alfabetulOghamic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_pozaAlfabetGlagolitic"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="40dp" />
+
+        <TextView
+            android:id="@+id/surugiu_george_alexandru_alphabets_alfabetOghamic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabets_oghamic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_titlu7"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="4dp" />
+
+        <ImageView
+            android:id="@+id/surugiu_george_alexandru_alphabets_pozaAlfabetOghamic"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:contentDescription="@string/tablita_alfabet_oghamic"
+            android:src="@drawable/alfabet_ghamic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_alphabets_alfabetOghamic"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
