@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TakeQuickActivity">
+    tools:context=".TakeTriviaActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/surugiu_george_alexandru_constraintLayout_quiz"
@@ -39,7 +39,8 @@
             app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q1"
             android:layout_marginStart="8dp"
             app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q1"
-            android:layout_marginEnd="16dp">
+            android:layout_marginEnd="16dp"
+            >
 
             <RadioButton
                 android:id="@+id/surugiu_george_alexandru_alfabetulFenician"
