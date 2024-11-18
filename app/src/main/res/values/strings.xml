@@ -66,6 +66,25 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="about_welcome">Bine ai venit!</string>
     <string name="about_appPurpose">„Istoria Alfabetelor” este o aplicatie educativa dedicata explorarii fascinantei evolutii a alfabetelor lumii. De la primele simboluri folosite in antichitate pana la alfabetele moderne, aplicatia iti ofera o calatorie interactiva prin istorie, descoperind originile si schimbarile literelor care formeaza limbile noastre. Fie ca esti pasionat de lingvistica, istorie sau pur si simplu vrei sa inveti ceva nou, aplicatia te va ghida printr-o serie de informatii interesante, curiozitati si activitati interactive, oferindu-ti o perspectiva unica asupra evolutiei alfabetelor. Explorati, învatati si distrati-va cu „Istoria Alfabetelor” – acoperind vechi civilizatii si contributiile lor la dezvoltarea limbii scrise!</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alphabets_scriereaCuneiforma">\t\tScrierea cuneiforma este considerata cel mai vechi sistem de scriere cunoscut, datand din jurul anului 3400 i.Hr. Acesta a fost folosit de civilizatiile din Mesopotamia, fiind un sistem bazat pe pictograme si simboluri fonetice. Spre deosebire de alte forme de scriere, cum sunt hieroglifele egiptene, cuneiformul se distinge prin utilizarea unui stilou pentru a imprima semnele pe tablitele de lut. Scrierea cuneiforma se bazeaza pe trei tipuri principale de simboluri: pictograme, semne fonetice si ideograme. Acestea erau folosite pentru a reprezenta idei, sunete si obiecte, formand un sistem complex de comunicare. Aceasta a fost descifrată in anul 1857 de cercetatorul britanic Henry Rawlinson, care a reusit sa identifice semnificatia unui numar mare de semne cuneiforme. Aceasta a deschis drumul pentru intelegerea limbii si culturii mesopotamiene.</string>
+    <string name="alphabets_titlu1">Scrierea cuneiforma</string>
+    <string name="tablita_scriere_cuneiforma">Tablita scriere cuneiforma</string>
+    <string name="alphabets_hieroglifeEgiptAntic">Hieroglifele Egiptului Antic</string>
+    <string name="alphabets_hieroglife">\t\tCivilizatia egipteana este cunoscuta pentru utilizarea hieroglifelor ca sistem de scriere. Aceste semne reprezentau obiecte sau idei si erau folosite in principal pentru a inregistra istoria, religia si viata cotidiana a egiptenilor. Hieroglifele au fost utilizate pentru mii de ani, fiind un simbol al rafinamentului cultural al Egiptului Antic.</string>
+    <string name="tablita_hieroglife">Tablita hieroglife</string>
+    <string name="alphabets_latin">\t\tAlfabetul latin modern isi are radacinile in alfabetul etrusc, care, la randul sau, a fost influentat de alfabetul grec. Alfabetul latin s-a raspandit rapid in Imperiul Roman si este acum folosit la scara larga in intreaga lume, fiind baza pentru majoritatea alfabetelor moderne. Alfabetul latin modern este format din 26 de litere, fiind utilizat in limbile majoritatii tarilor din lume. Aceasta este o modificare a alfabetului latin clasic, care continea doar 23 de litere.</string>
+    <string name="alphabets_alfabetulLatin">Alfabetul latin</string>
+    <string name="tablita_alfabet_latin">Tablita alfabet latin</string>
+    <string name="alphabets_alfabetulFenician">Alfabetul fenician</string>
+    <string name="alphabets_fenician">\t\tAlfabetul fenician este considerat stramosul direct al majoritatii alfabetelor moderne. Acesta a fost inventat de fenicieni in jurul anului 1200 i.Hr. si a fost un sistem fonetic simplificat, care a influentat atat alfabetul grec, cat si alte sisteme de scriere din regiune.</string>
+    <string name="tablita_alfabet_fenician">Tablita alfabet fenician</string>
+    <string name="alphabets_alfabetulRunic">Alfabetul runic</string>
+    <string name="alphabets_runic">\t\tAlfabetul runic a fost utilizat in Scandinavia incepand cu secolul II d.Hr. Runele aveau o forma distincta si erau folosite pentru a inscripționa pietre si obiecte de cult sau in scopuri magice si religioase.</string>
+    <string name="tablita_alfabet_runic">Tablita alfabet runic</string>
+    <string name="alphabets_alfabetulGlagolitic">Alfabetul glagolitic</string>
+    <string name="alphabets_glagolitic">\t\tAlfabetul glagolitic, un sistem de scriere folosit pentru a transcrie limba slava veche, a fost inventat de Constantin (Sfantul Chiril) in secolul IX. Acesta a jucat un rol esential in raspandirea crestinismului in randul slavilor.</string>
+    <string name="tablita_alfabet_glagolitic">Tablita alfabet glagolitic</string>
+    <string name="alphabets_alfabetulOghamic">Alfabetul oghamic</string>
+    <string name="alphabets_oghamic">\t\tAlfabetul oghamic este un sistem de scriere folosit in Irlanda si in zonele din jurul acesteia, incepand din jurul secolului IV d.Hr. Acesta a fost folosit pentru inscriptii pe pietre si a avut un rol important in cultura celtica.</string>
+    <string name="tablita_alfabet_oghamic">Tablita alfabet oghamic</string>
 </resources>
