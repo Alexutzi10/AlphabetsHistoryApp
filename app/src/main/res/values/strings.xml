@@ -28,7 +28,7 @@
     <string name="imperiul_roman">Imperiul roman</string>
     <string name="trivia_q3">3. In ce regiune a fost utilizat alfabetul runic?</string>
     <string name="answer_here">Answer here:</string>
-    <string name="trivia_q4">4. Cine este creditat pentru inventarea alfabetului glagolitic?</string>
+    <string name="trivia_q4">4. Care alfabet este considerat stramosul direct al majoritatii alfabetelor moderne?</string>
     <string name="trivia_q5">5. Cine este creditat pentru inventarea alfabetului glagolitic?</string>
     <string name="aristotel">Aristotel</string>
     <string name="constantin">Constantin</string>
@@ -50,4 +50,22 @@
     <string name="trivia_q9">9. In ce regiune a fost folosit alfabetul oghamic?</string>
     <string name="trivia_q10">10. Din ce sistem de scriere deriva alfabetul latin?</string>
     <string name="bttn_send">Send</string>
+    <string name="toast_q1">Trebuie sa selectezi un raspuns pentru intrebarea 1!</string>
+    <string name="toast_q2">Trebuie sa selectezi un raspuns pentru intrebarea 2!</string>
+    <string name="toast_q5">Trebuie sa selectezi un raspuns pentru intrebarea 5!</string>
+    <string name="toast_q7">Trebuie sa selectezi un raspuns pentru intrebarea 7!</string>
+    <string name="toast_q3">Raspunsul intrebarii 3 nu este valid!</string>
+    <string name="toast_q4">Raspunsul intrebarii 4 nu este valid!</string>
+    <string name="toast_q6">Trebuie sa introduci un numar in casuta intrebarii cu numarul 6!</string>
+    <string name="toast_q9">Raspunsul intrebarii 9 nu este valid!</string>
+    <string name="toast_q10">Raspunsul intrebarii 10 nu este valid!</string>
+    <string name="trivia_name">Istoria alfabetelor</string>
+    <string name="score_shower1">"Ai obtinut "</string>
+    <string name="score_shower2">" de puncte. Felicitari!"</string>
+    <string name="score_shower3">" de puncte. Mai incearca!"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_welcome">Bine ai venit!</string>
+    <string name="about_appPurpose">„Istoria Alfabetelor” este o aplicatie educativa dedicata explorarii fascinantei evolutii a alfabetelor lumii. De la primele simboluri folosite in antichitate pana la alfabetele moderne, aplicatia iti ofera o calatorie interactiva prin istorie, descoperind originile si schimbarile literelor care formeaza limbile noastre. Fie ca esti pasionat de lingvistica, istorie sau pur si simplu vrei sa inveti ceva nou, aplicatia te va ghida printr-o serie de informatii interesante, curiozitati si activitati interactive, oferindu-ti o perspectiva unica asupra evolutiei alfabetelor. Explorati, învatati si distrati-va cu „Istoria Alfabetelor” – acoperind vechi civilizatii si contributiile lor la dezvoltarea limbii scrise!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
