@@ -16,15 +16,11 @@
             android:name=".TakeTriviaActivity"
             android:exported="false" />
         <activity
-            android:name=".TriviaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".TriviaActivity"
+            android:name=".ViewTriviaActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.IstoriaAlfabetelor.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
