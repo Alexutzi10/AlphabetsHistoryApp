@@ -72,7 +72,8 @@
     <string name="alphabets_hieroglifeEgiptAntic">Hieroglifele Egiptului Antic</string>
     <string name="alphabets_hieroglife">\t\tCivilizatia egipteana este cunoscuta pentru utilizarea hieroglifelor ca sistem de scriere. Aceste semne reprezentau obiecte sau idei si erau folosite in principal pentru a inregistra istoria, religia si viata cotidiana a egiptenilor. Hieroglifele au fost utilizate pentru mii de ani, fiind un simbol al rafinamentului cultural al Egiptului Antic.</string>
     <string name="tablita_hieroglife">Tablita hieroglife</string>
-    <string name="alphabets_latin">\t\tAlfabetul latin modern isi are radacinile in alfabetul etrusc, care, la randul sau, a fost influentat de alfabetul grec. Alfabetul latin s-a raspandit rapid in Imperiul Roman si este acum folosit la scara larga in intreaga lume, fiind baza pentru majoritatea alfabetelor moderne. Alfabetul latin modern este format din 26 de litere, fiind utilizat in limbile majoritatii tarilor din lume. Aceasta este o modificare a alfabetului latin clasic, care continea doar 23 de litere.</string>
+    <string name="alphabets_latin">\t\tAlfabetul latin modern isi are radacinile in alfabetul etrusc, care, la randul sau, a fost influentat de alfabetul grec. Alfabetul latin s-a raspandit rapid in Imperiul Roman si este acum folosit la scara larga in intreaga lume, fiind baza pentru majoritatea alfabetelor moderne. Alfabetul latin modern este format din 26 de litere, fiind utilizat in limbile majoritatii tarilor din lume. Aceasta este o modificare a alfabetului latin clasic, care continea doar 23 de litere. Iata si o lista cu cifrele romane: I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000. Când o cifră mai mică este plasată după una mai mare, se adaugă. Exemplu: VI = 5 + 1 = 6. Când o cifră mai mică este plasată înaintea uneia mai mari, se scade.
+Exemplu: IV = 5 - 1 = 4. Aceeași cifră romană poate fi repetată de până la 3 ori pentru a adăuga valoare. Exemplu: III = 1 + 1 + 1 = 3.</string>
     <string name="alphabets_alfabetulLatin">Alfabetul latin</string>
     <string name="tablita_alfabet_latin">Tablita alfabet latin</string>
     <string name="alphabets_alfabetulFenician">Alfabetul fenician</string>
@@ -87,4 +88,9 @@
     <string name="alphabets_alfabetulOghamic">Alfabetul oghamic</string>
     <string name="alphabets_oghamic">\t\tAlfabetul oghamic este un sistem de scriere folosit in Irlanda si in zonele din jurul acesteia, incepand din jurul secolului IV d.Hr. Acesta a fost folosit pentru inscriptii pe pietre si a avut un rol important in cultura celtica.</string>
     <string name="tablita_alfabet_oghamic">Tablita alfabet oghamic</string>
+    <string name="introdu_un_raspuns">Introdu un raspuns!</string>
+    <string name="corect">Corect!</string>
+    <string name="incorect_raspunsul_corect_este">"Incorect! Raspunsul corect este "</string>
+    <string name="introdu_cifre_romane">"Introdu in casuta de mai jos numarul dat, scris in cifre romane: "</string>
+    <string name="introdu_cifre_arabe">"Introdu in casuta de mai jos numarul dat, scris in cifre arabe: "</string>
 </resources>
