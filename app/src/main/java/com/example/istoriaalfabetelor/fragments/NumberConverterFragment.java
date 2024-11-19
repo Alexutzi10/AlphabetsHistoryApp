@@ -43,10 +43,10 @@ public class NumberConverterFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_number_converter, container, false);
 
-        questionTextView = view.findViewById(R.id.questionTextView);
-        answerText = view.findViewById(R.id.answerEditText);
-        submitButton = view.findViewById(R.id.submitButton);
-        nextQuestionButton = view.findViewById(R.id.nextQuestionButton);
+        questionTextView = view.findViewById(R.id.surugiu_george_alexandru_questionTextView);
+        answerText = view.findViewById(R.id.surugiu_george_alexandru_answerEditText);
+        submitButton = view.findViewById(R.id.surugiu_george_alexandru_submitButton);
+        nextQuestionButton = view.findViewById(R.id.surugiu_george_alexandru_nextQuestionButton);
 
         generateQuestion();
 
