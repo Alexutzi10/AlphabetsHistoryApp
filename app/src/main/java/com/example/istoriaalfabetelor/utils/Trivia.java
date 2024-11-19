@@ -1,8 +1,9 @@
 package com.example.istoriaalfabetelor.utils;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Trivia {
+public class Trivia implements Serializable {
     private String name;
     private int score;
     private Date date;
@@ -148,10 +149,6 @@ public class Trivia {
 
     @Override
     public String toString() {
-        return "Trivia{" +
-                "name='" + name + '\'' +
-                ", score=" + score +
-                ", date=" + date +
-                '}';
+        return name + " - Scor: " + score + " - Data: " + date.toString();
     }
 }
