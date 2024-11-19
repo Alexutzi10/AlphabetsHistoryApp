@@ -1,5 +1,6 @@
 package com.example.istoriaalfabetelor;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
@@ -16,10 +17,14 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.istoriaalfabetelor.utils.Trivia;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class TakeTriviaActivity extends AppCompatActivity {
-
+    public static int score;
+    private static List<Trivia> triviaList = new ArrayList<>();
+    public static final String TRIVIA = "trivia";
     private RadioGroup question1;
     private RadioGroup question2;
     private RadioGroup question5;
@@ -46,21 +51,27 @@ public class TakeTriviaActivity extends AppCompatActivity {
         initializeComponents();
 
         sendBttn.setOnClickListener(click -> {
-            if (validateInputs()) {
-                Trivia trivia = buildTrivia();
-                Log.i("TakeTriviaActivity", trivia.toString());
+            if (!validateInputs()) {
+                return;
             }
+
+            Trivia trivia = buildTrivia();
+            triviaList.add(trivia);
+            Log.i("TakeTriviaActivity", trivia.toString());
+
             if (generateScore() >= 50) {
                 Toast.makeText(getApplicationContext(), getString(R.string.score_shower1) + generateScore() + getString(R.string.score_shower2), Toast.LENGTH_LONG).show();
             } else {
                 Toast.makeText(getApplicationContext(), getString(R.string.score_shower1) + generateScore() + getString(R.string.score_shower3), Toast.LENGTH_LONG).show();
             }
+
+            finish();
         });
     }
 
     private Trivia buildTrivia() {
         String name = getString(R.string.trivia_name);
-        int score = generateScore();
+        score = generateScore();
         return new Trivia(name, score);
     }
 

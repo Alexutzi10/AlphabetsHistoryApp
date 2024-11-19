@@ -2,16 +2,13 @@ package com.example.istoriaalfabetelor;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
 
 import com.example.istoriaalfabetelor.fragments.AboutFragment;
 import com.example.istoriaalfabetelor.fragments.AlphabetsFragment;
-import com.example.istoriaalfabetelor.fragments.HomeFragment;
 import com.example.istoriaalfabetelor.fragments.NumberConverterFragment;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
@@ -24,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
     private FloatingActionButton triviaFab;
+    private FloatingActionButton viewResultsFab;
     private Fragment currentFragment;
 
     @Override
@@ -35,18 +33,22 @@ public class MainActivity extends AppCompatActivity {
         navigationView = findViewById(R.id.surugiu_george_alexandru_nav_view);
         navigationView.setNavigationItemSelectedListener(getItemSelectedListener());
         triviaFab = findViewById(R.id.surugiu_george_alexandru_triviaFab);
+        viewResultsFab = findViewById(R.id.surugiu_george_alexandru_viewTriviaFab);
 
         triviaFab.setOnClickListener(click -> {
-            Intent triviaWindow = new Intent(getApplicationContext(), TakeTriviaActivity.class);
+            Intent triviaWindow = new Intent(MainActivity.this, TakeTriviaActivity.class);
             startActivity(triviaWindow);
+        });
+
+        viewResultsFab.setOnClickListener(click -> {
+            Intent resultsWindow = new Intent(MainActivity.this, ViewTriviaActivity.class);
+            startActivity(resultsWindow);
         });
     }
 
     private NavigationView.OnNavigationItemSelectedListener getItemSelectedListener() {
         return item -> {
-            if (item.getItemId() == R.id.nav_home) {
-                currentFragment = new HomeFragment();
-            } else if (item.getItemId() == R.id.nav_learn) {
+            if (item.getItemId() == R.id.nav_learn) {
                 currentFragment = new AlphabetsFragment();
             } else if (item.getItemId() == R.id.nav_numbers) {
                 currentFragment = new NumberConverterFragment();

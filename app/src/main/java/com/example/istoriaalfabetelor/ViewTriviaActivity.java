@@ -1,24 +1,38 @@
 package com.example.istoriaalfabetelor;
 
-import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
+
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import com.example.istoriaalfabetelor.utils.Trivia;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ViewTriviaActivity extends AppCompatActivity {
+    private Button bttnScores;
+    private ListView listView;
+    private List<Trivia> triviaList = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_view_trivia);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+
+        bttnScores = findViewById(R.id.surugiu_george_alexandru_getScores);
+        listView = findViewById(R.id.surugiu_george_alexandru_triviaListView);
+
+        ArrayAdapter<Trivia> adapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_list_item_1, triviaList);
+        listView.setAdapter(adapter);
+
+        bttnScores.setOnClickListener(click -> {
+            Trivia trivia = new Trivia("Istoria alfabetelor", TakeTriviaActivity.score);
+            triviaList.add(trivia);
+            adapter.notifyDataSetChanged();
         });
     }
 }
