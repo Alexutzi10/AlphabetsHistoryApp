@@ -103,11 +103,11 @@ public class TakeTriviaActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), R.string.toast_q2, Toast.LENGTH_SHORT).show();
             return false;
         }
-        if (question3.getText() == null || question3.getText().toString().trim().length() <= 3 || question3.getText().toString().trim().equals("Answer here:")) {
+        if (question3.getText() == null || question3.getText().toString().trim().length() <= 3) {
             Toast.makeText(getApplicationContext(), R.string.toast_q3, Toast.LENGTH_SHORT).show();
             return false;
         }
-        if (question4.getText() == null || question4.getText().toString().trim().length() <=3 || question4.getText().toString().trim().equals("Answer here:")) {
+        if (question4.getText() == null || question4.getText().toString().trim().length() <=3) {
             Toast.makeText(getApplicationContext(), R.string.toast_q4, Toast.LENGTH_SHORT).show();
             return false;
         }
@@ -115,7 +115,7 @@ public class TakeTriviaActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), R.string.toast_q5, Toast.LENGTH_SHORT).show();
             return false;
         }
-        if (question6.getText() == null || question6.getText().toString().trim().equals("Answer here:")) {
+        if (question6.getText() == null) {
             Toast.makeText(getApplicationContext(), R.string.toast_q6, Toast.LENGTH_SHORT).show();
             return false;
         }
@@ -123,11 +123,11 @@ public class TakeTriviaActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), R.string.toast_q7, Toast.LENGTH_SHORT).show();
             return false;
         }
-        if (question9.getText() == null || question9.getText().toString().trim().length() <=3 || question9.getText().toString().trim().equals("Answer here:")) {
+        if (question9.getText() == null || question9.getText().toString().trim().length() <=3) {
             Toast.makeText(getApplicationContext(), R.string.toast_q9, Toast.LENGTH_SHORT).show();
             return false;
         }
-        if (question10.getText() == null || question10.getText().toString().trim().length() <=3 || question10.getText().toString().trim().equals("Answer here:")) {
+        if (question10.getText() == null || question10.getText().toString().trim().length() <=3) {
             Toast.makeText(getApplicationContext(), R.string.toast_q10, Toast.LENGTH_SHORT).show();
             return false;
         }
