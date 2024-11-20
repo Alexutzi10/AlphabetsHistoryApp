@@ -50,8 +50,12 @@ public class NumberConverterFragment extends Fragment {
 
         generateQuestion();
 
-        submitButton.setOnClickListener(v -> validateAnswer());
-        nextQuestionButton.setOnClickListener(v -> generateQuestion());
+        submitButton.setOnClickListener(click -> {
+            validateAnswer();
+        });
+        nextQuestionButton.setOnClickListener(click -> {
+            generateQuestion();
+        });
 
         return view;
     }
