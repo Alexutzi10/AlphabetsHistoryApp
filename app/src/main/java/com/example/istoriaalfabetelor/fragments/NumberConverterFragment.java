@@ -81,7 +81,7 @@ public class NumberConverterFragment extends Fragment {
     private void validateAnswer() {
         String userAnswer = answerText.getText().toString().trim();
 
-        if (TextUtils.isEmpty(userAnswer)) {
+        if (userAnswer.isEmpty()) {
             Toast.makeText(getContext(), R.string.introdu_un_raspuns, Toast.LENGTH_SHORT).show();
             return;
         }
