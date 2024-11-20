@@ -92,9 +92,11 @@ Exemplu: IV = 5 - 1 = 4. Aceeași cifră romană poate fi repetată de până la
     <string name="incorect_raspunsul_corect_este">"Incorect! Raspunsul corect este "</string>
     <string name="introdu_cifre_romane">"Introdu in casuta de mai jos numarul dat, scris in cifre romane: "</string>
     <string name="introdu_cifre_arabe">"Introdu in casuta de mai jos numarul dat, scris in cifre arabe: "</string>
-    <string name="scores">Scores</string>
+    <string name="scores">Take trivia</string>
     <string name="question">Question</string>
     <string name="enter_your_answer">Enter your answer</string>
     <string name="submit">Submit</string>
     <string name="next_question">Next</string>
+    <string name="trivia_menu">Trivia menu</string>
+    <string name="buton_trivia">Buton trivia</string>
 </resources>
