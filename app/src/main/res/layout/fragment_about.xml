@@ -4,13 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.AboutFragment">
+    tools:context=".fragments.AboutFragment"
+    android:background="@color/bej_pergament">
 
     <TextView
         android:id="@+id/surugiu_george_alexandru_about_welcomeMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/about_welcome"
+        android:textColor="@color/rosu_inchis"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -24,6 +27,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/about_appPurpose"
+        android:textColor="@color/cenusiu"
+        android:textStyle="italic"
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
         android:layout_marginTop="50dp"

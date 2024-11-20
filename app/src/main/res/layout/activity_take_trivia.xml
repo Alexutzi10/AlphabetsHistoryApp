@@ -9,13 +9,16 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/surugiu_george_alexandru_constraintLayout_quiz"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@color/bej_pergament">
 
         <TextView
             android:id="@+id/surugiu_george_alexandru_tvTrivia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/trivia"
+            android:textColor="@color/rosu_inchis"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -30,7 +33,8 @@
             android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/trivia_q1" />
+            android:text="@string/trivia_q1"
+            android:textColor="@color/rosu_inchis"/>
 
         <RadioGroup
             android:id="@+id/surugiu_george_alexandru_radioGroup_q1"
@@ -47,6 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/alfabetul_fenician"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
 
             <RadioButton
@@ -54,6 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/scrierea_cuneiforma"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
 
             <RadioButton
@@ -61,6 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hieroglifa_egipteana"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
 
             <RadioButton
@@ -68,6 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/alfabetul_grec"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
         </RadioGroup>
 
@@ -78,7 +86,8 @@
             android:layout_marginTop="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/trivia_q2" />
+            android:text="@string/trivia_q2"
+            android:textColor="@color/rosu_inchis" />
 
         <RadioGroup
             android:id="@+id/surugiu_george_alexandru_radioGroup_q2"
@@ -94,6 +103,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mesopotamia"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
 
             <RadioButton
@@ -101,6 +111,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/egiptul_antic"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
 
             <RadioButton
@@ -108,6 +119,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/civilizatia_minoica"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
 
             <RadioButton
@@ -115,6 +127,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/imperiul_roman"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
         </RadioGroup>
 
@@ -123,6 +136,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/trivia_q3"
+            android:textColor="@color/rosu_inchis"
             app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q2"
             app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_radioGroup_q2"
             android:layout_marginTop="8dp" />
@@ -136,6 +150,7 @@
             android:inputType="text"
             android:minHeight="48dp"
             android:text="@string/answer_here"
+            android:textColor="@color/cenusiu"
             android:textSize="11sp"
             app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q3"
             app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q3" />
@@ -145,6 +160,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/trivia_q4"
+            android:textColor="@color/rosu_inchis"
             app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q3"
             app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_editText_q3"
             android:layout_marginTop="11dp"/>
@@ -158,6 +174,7 @@
             android:inputType="text"
             android:minHeight="48dp"
             android:text="@string/answer_here"
+            android:textColor="@color/cenusiu"
             android:textSize="11sp"
             app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q4"
             app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q4" />
@@ -167,6 +184,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/trivia_q5"
+            android:textColor="@color/rosu_inchis"
             app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q4"
             app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_editText_q4"
             android:layout_marginTop="11dp"/>
@@ -185,6 +203,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/aristotel"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
 
             <RadioButton
@@ -192,6 +211,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/socrate"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
 
             <RadioButton
@@ -199,6 +219,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/constantin"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
 
             <RadioButton
@@ -206,6 +227,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/herodot"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
         </RadioGroup>
 
@@ -214,6 +236,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/trivia_q6"
+            android:textColor="@color/rosu_inchis"
             app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q5"
             app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_radioGroup_q5"
             android:layout_marginTop="8dp" />
@@ -227,6 +250,7 @@
             android:inputType="number"
             android:minHeight="48dp"
             android:text="@string/answer_here"
+            android:textColor="@color/cenusiu"
             android:textSize="11sp"
             app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q6"
             app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q6" />
@@ -236,6 +260,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/trivia_q7"
+            android:textColor="@color/rosu_inchis"
             app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q6"
             app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_editText_q6"
             android:layout_marginTop="8dp" />
@@ -254,6 +279,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/_1799"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
 
             <RadioButton
@@ -261,6 +287,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/_1857"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
 
             <RadioButton
@@ -268,6 +295,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/_1822"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
 
             <RadioButton
@@ -275,6 +303,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/_1895"
+                android:textColor="@color/cenusiu"
                 android:textSize="11sp" />
         </RadioGroup>
 
@@ -283,6 +312,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/trivia_q8"
+            android:textColor="@color/rosu_inchis"
             app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q7"
             app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_radioGroup_q7"
             android:layout_marginTop="8dp" />
@@ -304,6 +334,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/trivia_q9"
+            android:textColor="@color/rosu_inchis"
             app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q8"
             app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_spinnerQ8"
             android:layout_marginTop="4dp" />
@@ -317,6 +348,7 @@
             android:inputType="text"
             android:minHeight="48dp"
             android:text="@string/answer_here"
+            android:textColor="@color/cenusiu"
             android:textSize="11sp"
             app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q9"
             app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q9" />
@@ -326,6 +358,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/trivia_q10"
+            android:textColor="@color/rosu_inchis"
             app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q9"
             app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_editText_q9"
             android:layout_marginTop="8dp" />
@@ -339,6 +372,7 @@
             android:inputType="text"
             android:minHeight="48dp"
             android:text="@string/answer_here"
+            android:textColor="@color/cenusiu"
             android:textSize="11sp"
             app:layout_constraintStart_toStartOf="@id/surugiu_george_alexandru_tv_q10"
             app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_tv_q10" />
@@ -348,6 +382,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/bttn_send"
+            android:backgroundTint="@color/rosu_inchis"
+            android:textColor="@color/bej_pergament"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/surugiu_george_alexandru_editText_q10"

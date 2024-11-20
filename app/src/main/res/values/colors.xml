@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="maro_istoric">#8B5A2B</color>
+    <color name="auriu">#D4AF37</color>
+    <color name="bej_pergament">#F5DEB3</color>
+    <color name="rosu_inchis">#800020</color>
+    <color name="cenusiu">#2F2F2F</color>
+    <color name="maro_deschis">#C4A484</color>
 </resources>

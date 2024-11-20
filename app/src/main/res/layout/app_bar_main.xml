@@ -15,7 +15,7 @@
             android:id="@+id/surugiu_george_alexandru_main_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:background="@color/maro_istoric"
             app:popupTheme="@style/Theme.IstoriaAlfabetelor.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -31,6 +31,8 @@
         android:layout_marginBottom="40dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:contentDescription="@string/buton_trivia"/>
+        android:contentDescription="@string/buton_trivia"
+        android:backgroundTint="@color/rosu_inchis"
+        android:textColor="@color/bej_pergament"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

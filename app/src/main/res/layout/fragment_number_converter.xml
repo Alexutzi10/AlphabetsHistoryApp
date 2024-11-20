@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@color/bej_pergament">
 
     <TextView
         android:id="@+id/surugiu_george_alexandru_questionTextView"
@@ -12,6 +13,8 @@
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:text="@string/question"
+        android:textColor="@color/rosu_inchis"
+        android:textStyle="bold"
         android:gravity="center"
         android:layout_marginTop="100dp"
         android:layout_marginBottom="16dp" />
@@ -21,6 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/enter_your_answer"
+        android:textColorHint="@color/cenusiu"
         app:boxBackgroundMode="outline"
         app:boxStrokeColor="@color/purple_500"
         app:boxStrokeWidthFocused="2dp">
@@ -29,7 +33,9 @@
             android:id="@+id/surugiu_george_alexandru_answerEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="@color/cenusiu"
+            android:textStyle="italic"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -38,6 +44,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/submit"
+        android:backgroundTint="@color/rosu_inchis"
+        android:textColor="@color/bej_pergament"
         android:layout_marginTop="16dp" />
 
     <Button
@@ -45,5 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/next_question"
+        android:backgroundTint="@color/rosu_inchis"
+        android:textColor="@color/bej_pergament"
         android:layout_marginTop="8dp" />
 </LinearLayout>
