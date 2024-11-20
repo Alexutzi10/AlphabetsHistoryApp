@@ -42,11 +42,11 @@ public class MainActivity extends AppCompatActivity {
 
     private NavigationView.OnNavigationItemSelectedListener getItemSelectedListener() {
         return item -> {
-            if (item.getItemId() == R.id.nav_learn) {
+            if (item.getItemId() == R.id.surugiu_george_alexandru_nav_learn) {
                 currentFragment = new AlphabetsFragment();
-            } else if (item.getItemId() == R.id.nav_numbers) {
+            } else if (item.getItemId() == R.id.surugiu_george_alexandru_nav_numbers) {
                 currentFragment = new NumberConverterFragment();
-            } else if (item.getItemId() == R.id.nav_about){
+            } else if (item.getItemId() == R.id.surugiu_george_alexandru_nav_about){
                 currentFragment = new AboutFragment();
             }
             drawerLayout.closeDrawer(GravityCompat.START);
