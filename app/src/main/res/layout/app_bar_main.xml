@@ -22,25 +22,15 @@
 
     <include layout="@layout/content_main" />
 
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/surugiu_george_alexandru_triviaFab"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/surugiu_george_alexandru_bttnTrivia"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        app:srcCompat="@drawable/baseline_edit_24"
-        android:contentDescription="@string/take_the_quiz"/>
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/surugiu_george_alexandru_viewTriviaFab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="20dp"
-        app:srcCompat="@drawable/baseline_table_chart_24"
-        android:contentDescription="@string/trivia_scores"/>
+        android:text="@string/trivia_menu"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:contentDescription="@string/buton_trivia"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
