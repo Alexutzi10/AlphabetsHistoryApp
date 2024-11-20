@@ -50,7 +50,6 @@ public class TakeTriviaActivity extends AppCompatActivity {
 
         initializeComponents();
 
-        //pasul 2 din schema
         intent = getIntent();
 
         sendBttn.setOnClickListener(click -> {
@@ -61,7 +60,6 @@ public class TakeTriviaActivity extends AppCompatActivity {
             Trivia trivia = buildTrivia();
             Log.i("TakeTriviaActivity", trivia.toString());
 
-            //pasul 3 din schema
             intent.putExtra(TRIVIA, trivia);
             setResult(RESULT_OK, intent);
 

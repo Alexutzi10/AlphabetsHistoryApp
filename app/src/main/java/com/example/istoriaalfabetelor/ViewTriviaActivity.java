@@ -35,8 +35,6 @@ public class ViewTriviaActivity extends AppCompatActivity {
 
         bttnTakeTrivia.setOnClickListener(click -> {
             Intent intent = new Intent(getApplicationContext(), TakeTriviaActivity.class);
-
-            //pasul 1 din schema
             launcher.launch(intent);
         });
 
@@ -49,7 +47,6 @@ public class ViewTriviaActivity extends AppCompatActivity {
 
     private ActivityResultCallback<ActivityResult> getTriviaCallback() {
         return result -> {
-            //pasul 4 din schema
             if (result.getResultCode() == RESULT_OK && result.getData() != null) {
                 Trivia trivia = (Trivia) result.getData().getSerializableExtra(TakeTriviaActivity.TRIVIA);
                 scores.add(trivia);
