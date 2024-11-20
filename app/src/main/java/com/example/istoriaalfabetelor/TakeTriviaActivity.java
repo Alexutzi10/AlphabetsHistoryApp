@@ -23,7 +23,6 @@ import java.util.List;
 
 public class TakeTriviaActivity extends AppCompatActivity {
     public static int score;
-    private static List<Trivia> triviaList = new ArrayList<>();
     public static final String TRIVIA = "trivia";
     private RadioGroup question1;
     private RadioGroup question2;
@@ -36,6 +35,7 @@ public class TakeTriviaActivity extends AppCompatActivity {
     private EditText question10;
     private Spinner question8;
     private Button sendBttn;
+    private Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,14 +50,20 @@ public class TakeTriviaActivity extends AppCompatActivity {
 
         initializeComponents();
 
+        //pasul 2 din schema
+        intent = getIntent();
+
         sendBttn.setOnClickListener(click -> {
             if (!validateInputs()) {
                 return;
             }
 
             Trivia trivia = buildTrivia();
-            triviaList.add(trivia);
             Log.i("TakeTriviaActivity", trivia.toString());
+
+            //pasul 3 din schema
+            intent.putExtra(TRIVIA, trivia);
+            setResult(RESULT_OK, intent);
 
             if (generateScore() >= 50) {
                 Toast.makeText(getApplicationContext(), getString(R.string.score_shower1) + generateScore() + getString(R.string.score_shower2), Toast.LENGTH_LONG).show();

@@ -2,6 +2,7 @@ package com.example.istoriaalfabetelor;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 
 import com.example.istoriaalfabetelor.fragments.AboutFragment;
 import com.example.istoriaalfabetelor.fragments.AlphabetsFragment;
@@ -20,8 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
-    private FloatingActionButton triviaFab;
-    private FloatingActionButton viewResultsFab;
+    private Button triviaMenu;
     private Fragment currentFragment;
 
     @Override
@@ -32,17 +32,11 @@ public class MainActivity extends AppCompatActivity {
 
         navigationView = findViewById(R.id.surugiu_george_alexandru_nav_view);
         navigationView.setNavigationItemSelectedListener(getItemSelectedListener());
-        triviaFab = findViewById(R.id.surugiu_george_alexandru_triviaFab);
-        viewResultsFab = findViewById(R.id.surugiu_george_alexandru_viewTriviaFab);
+        triviaMenu = findViewById(R.id.surugiu_george_alexandru_bttnTrivia);
 
-        triviaFab.setOnClickListener(click -> {
-            Intent triviaWindow = new Intent(MainActivity.this, TakeTriviaActivity.class);
+        triviaMenu.setOnClickListener(click -> {
+            Intent triviaWindow = new Intent(MainActivity.this, ViewTriviaActivity.class);
             startActivity(triviaWindow);
-        });
-
-        viewResultsFab.setOnClickListener(click -> {
-            Intent resultsWindow = new Intent(MainActivity.this, ViewTriviaActivity.class);
-            startActivity(resultsWindow);
         });
     }
 
